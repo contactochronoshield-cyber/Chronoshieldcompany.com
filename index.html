@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chrono Shield Networks</title>
+
+  <meta name="description" content="Chrono Shield Networks — Sovereign Cybersecurity & Cryptographic Defense." />
+  <meta name="author" content="Chrono Shield Networks" />
+
+  <style>
+    :root {
+      --bg: #0b0e13;
+      --panel: #121622;
+      --text: #e6e9ef;
+      --muted: #9aa3b2;
+      --accent: #5f8cff;
+      --border: #1e2333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      background: radial-gradient(circle at top, #11162a, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    header {
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    header h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin-top: 1rem;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3.5rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 4.5rem;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    h2 {
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+    }
+
+    p {
+      color: var(--muted);
+      max-width: 760px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.75rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 2rem;
+      border-radius: 14px;
+      transition: transform 0.3s ease, border 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: var(--accent);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      color: var(--text);
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      background: #090b11;
+      padding: 3rem 1.5rem;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      justify-content: space-between;
+    }
+
+    .footer-block {
+      min-width: 240px;
+    }
+
+    footer h4 {
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    footer p,
+    footer li {
+      font-size: 0.9rem;
+      color: var(--muted);
+      list-style: none;
+    }
+
+    .fingerprint {
+      font-family: monospace;
+      font-size: 0.85rem;
+      word-break: break-all;
+      background: #0e1220;
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 0.75rem;
+    }
+
+    .links a {
+      display: block;
+      margin-top: 0.4rem;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chrono Shield Networks</h1>
+  <p>Sovereign Cybersecurity & Cryptographic Defense</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      Chrono Shield Networks is an independent cybersecurity entity focused on
+      cryptographic sovereignty, digital defense, and secure communications.
+      We operate under principles of trust minimization, verifiable identity,
+      and long-term operational resilience.
+    </p>
+  </section>
+
+  <section>
+    <h2>Core Capabilities</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Cyber Defense</h3>
+        <p>Threat intelligence, hardening, and incident response for critical systems.</p>
+      </div>
+      <div class="card">
+        <h3>Cryptography</h3>
+        <p>PGP infrastructure, key lifecycle management, and secure communications.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Sovereignty</h3>
+        <p>Independent architectures minimizing reliance on third-party trust.</p>
+      </div>
+      <div class="card">
+        <h3>Advisory</h3>
+        <p>Strategic security guidance for institutions and sovereign initiatives.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+
+    <div class="footer-block">
+      <h4>Contact</h4>
+      <p>Email:</p>
+      <p><a href="mailto:security@chronoshield.company">security@chronoshield.company</a></p>
+    </div>
+
+    <div class="footer-block">
+      <h4>Cryptographic Identity (PGP)</h4>
+      <p>Primary Key — ED25519</p>
+      <div class="fingerprint">
+        2B08 7BC5 4355 4B3B AA0F EF49 D601 764D E11B B8BF
+      </div>
+    </div>
+
+    <div class="footer-block">
+      <h4>Verification & Policy</h4>
+      <p>All official communications are cryptographically signed.</p>
+      <div class="links">
+        <a href="/pgp.asc">PGP Public Key</a>
+        <a href="/security.txt">Security Policy</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © 2025 Chrono Shield Networks. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
